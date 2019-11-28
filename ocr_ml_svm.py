@@ -37,8 +37,7 @@ print("File load completed")
 kf = KFold(n_splits=3, shuffle=True, random_state=42)
 
 possible_parameters = {
-    #'C': [1e0, 1e1, 1e2, 1e3],
-    'C': [1e1],
+    'C': [1e0, 1e1, 1e2, 1e3],
     'gamma': [1e-1, 1e-2, 1e-3, 1e-4]
 }
 
